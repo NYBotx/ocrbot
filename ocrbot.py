@@ -63,7 +63,7 @@ def main():
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
-    ocr_bot_token=os.environ.get("BOT_TOKEN", "")
+    ocr_bot_token=os.environ.get("BOT_TOKEN", "7169625453:AAG7m4N48VVbBCSfAV7tR5nMglJytYS-JWQ")
     updater = Updater(ocr_bot_token, use_context=True)
 
     # Get the dispatcher to register handlers
